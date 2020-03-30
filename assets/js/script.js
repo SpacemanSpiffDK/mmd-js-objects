@@ -35,6 +35,7 @@ console.log(jobA.isActive);
 
 // We can add a funtion to the object
 // (which is called a method, because it belongs to an object)
+// Read more here: https://medium.com/predict/javascript-functions-vs-methods-and-other-helpful-tips-e58a621b1d27
 
 let job = {
     title: 'scarer',
@@ -134,6 +135,7 @@ let newProtagonist = {
     fullName: function(){ 
         // here we create method (it's called a 
         // method when it's attached to an object)
+        // Read more here: https://medium.com/predict/javascript-functions-vs-methods-and-other-helpful-tips-e58a621b1d27
         return `${this.firstName} ${this.lastName}`;
         // In a method, "this" refers to the "owner" of the method 
         // (in this case it is the object "newProtagonist")
