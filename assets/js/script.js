@@ -160,8 +160,10 @@ console.log(user);
 // seal the object
 user = Object.seal(user);
 
+// try changing values to exisitng keys
 user.name = 'Tyler';
 user.password = 'donttalkaboutit';
 user.position = 'The guerilla terrorist of the food service industry';
-user.alternatePersonality = 'Narrator'; // Doesn't show up, can't be added due to Object.seal()
+// try adding a key: Doesn't show up, can't be added due to Object.seal()
+user.alternatePersonality = 'Narrator'; 
 console.log(user);
