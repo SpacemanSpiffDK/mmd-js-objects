@@ -191,3 +191,13 @@ user.position = 'The guerilla terrorist of the food service industry';
 // try adding a key: Can't be added due to Object.seal()
 user.alternatePersonality = 'Narrator'; 
 console.log(user);
+
+// there are automatically generated objects, i.e.: window, document
+
+console.log('window - The browser ----------------------');
+console.log(window);
+console.log(window.innerWidth);
+console.log(window.innerHeight);
+
+console.log('document - The HTML DOM ----------------------');
+console.log(document);
