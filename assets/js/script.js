@@ -1,8 +1,7 @@
 // JS by Dan Høegh
 // UCN MMD 2020
 
-// Let's create a object. It never change content 
-// so we can initialize it with the constant keyword
+// Let's create a object. 
 let jobA = { // use "let job" not "let JobA" during lesson
     title: 'scarer',
     description: 'scare children to extract energy',
@@ -11,7 +10,7 @@ let jobA = { // use "let job" not "let JobA" during lesson
 
 // ------------- 8< ------------- Cut away below after JobA is done
 
-// Out put it in console first... then in html
+// Output it in console first... then in html
 console.log(jobA);
 document.querySelector('#output').innerHTML += jobA;
 // difference in output when you output an object to html or console!
