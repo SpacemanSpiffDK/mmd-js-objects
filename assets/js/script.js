@@ -1,7 +1,7 @@
 // JS by Dan Høegh
 // UCN MMD 2020
 
-// Let's create a object. 
+// Let's create an object. 
 let jobA = { // use "let job" not "let JobA" during lesson
     title: 'scarer',
     description: 'scare children to extract energy',
