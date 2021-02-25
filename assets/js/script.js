@@ -1,5 +1,5 @@
 // JS by Dan Høegh
-// UCN MMD 2020
+// UCN MMD 2021
 
 // Let's create an object. 
 let jobA = { // use "let job" not "let JobA" during lesson
