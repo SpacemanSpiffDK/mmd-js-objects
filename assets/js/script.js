@@ -12,6 +12,7 @@ let jobA = { // use "let job" not "let JobA" during lesson
 
 // Output it in console first... then in html
 console.log(jobA);
+// document.querySelector('#output').innerHTML = document.querySelector('#output').innerHTML + jobA;
 document.querySelector('#output').innerHTML += jobA;
 // difference in output when you output an object to html or console!
 
