@@ -44,7 +44,8 @@ let job = {
     // extend job with this function
     showDetails() {
         let status = this.isActive ? 'ongoing' : 'on pause';
-        console.log(`The position as ${job.title} means you ${job.description}. It is currently ${status}.`);
+        console.log(`The position as ${job.title} 
+        means you ${job.description}. It is currently ${status}.`);
     }
 }
 
@@ -99,18 +100,23 @@ console.log(length);
 let values = Object.values(assistant);
 console.log(values);
 
-// Getting the key/value pais of the object into an array - Object.entries()
+// Getting the key/value pais of the object into a list - Object.entries()
 let entries = Object.entries(assistant);
 console.log(entries); 
 // ^^ The console looks different for these,
-// ^^ this is an array, not an object
+// ^^ this is a list, not an object
 
-// Looping through an array
+// Looping through a list
 entries.forEach(entry => {
     let key = entry[0];
     let value = entry[1];
     console.log(`${key}: ${value}`)
 });
+
+
+
+
+
 
 // Combining objects - Object.assign()
 let name = {
